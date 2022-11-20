@@ -1,0 +1,20 @@
+
+.card{
+   width: 80px;
+   margin:50px auto 50px;
+  }
+.card{
+    display: grid;
+    grid-template-columns :repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:30px;
+  }
+  .card img{
+
+    cursor:pointer;
+    transition:0.4s;
+  }
+  .card img:hover{
+    transform:scale(0.8) rotate(-5deg);
+    border-radius:20px;
+    box-shadow:0 32px 75px rgba(68,77,136,0.2);
+  }
